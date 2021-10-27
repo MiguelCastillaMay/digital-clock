@@ -1,0 +1,30 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background: conic-gradient(
+    from 90deg at 25% -10%,
+    #71C9CE,
+    #A6E3E9,
+    #CBF1F5,
+    #E3FDFD
+  );
+  color: white;
+}
+
+#container {
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0px;
+}
+#date {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
